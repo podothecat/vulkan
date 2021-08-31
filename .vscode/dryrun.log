@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/jhosk2/workspace/vulkan'
+g++ -std=c++17 -I. -I/Users/jhosk2/VulkanSDK/1.2.182.0/macOS/include -o a.out *.cpp -L/Users/jhosk2/VulkanSDK/1.2.182.0/macOS/lib `pkg-config --static --libs glfw3` -lvulkan
+make: Leaving directory `/Users/jhosk2/workspace/vulkan'
+ 
